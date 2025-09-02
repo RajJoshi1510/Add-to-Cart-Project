@@ -1,17 +1,9 @@
-/* 
-Fly To 🛒 Shopping Cart Animation With Vanilla JavaScript
-👨🏻‍⚕️ By: Coding Design
 
-You can do whatever you want with the code. However if you love my content, you can subscribed my YouTube Channel
-🌎link: www.youtube.com/codingdesign
- */
 
 :root {
     --primary: #18253c;
-    /* --primary: #fff; */
     --secondary: #00dd53;
     --bg: #0e1523;
-    /* --bg: #f5f5f5; */
 }
 
 * {
@@ -28,21 +20,14 @@ body {
 .slider {
     background-color: var(--bg);
     padding: 1rem;
-
     margin: 7rem auto;
     display: flex;
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    place-items: center;
-    grid-gap: 2rem; */
-
     font: normal 1rem sans-serif;
 }
 
 .card {
     position: relative;
     left:0;
-
     min-width: 17rem;
     height: 23rem;
     background-color:var(--primary);
@@ -217,7 +202,7 @@ body {
 
 .arrow:active {
     background-color: #ddd;
-    /* background-color: #666; */
+    
 }
 
 .left {
